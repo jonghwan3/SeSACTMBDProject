@@ -16,6 +16,9 @@
 		6A27475B2899F7D30077EFAA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6A27475A2899F7D30077EFAA /* .gitignore */; };
 		6A27475D2899F81A0077EFAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27475C2899F81A0077EFAA /* SearchViewController.swift */; };
 		6A27475F2899F8890077EFAA /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27475E2899F8890077EFAA /* APIKey.swift */; };
+		6A2747612899FA070077EFAA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2747602899FA070077EFAA /* Constant.swift */; };
+		6A2747652899FAA60077EFAA /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2747642899FAA60077EFAA /* Example.swift */; };
+		6A2747672899FAB30077EFAA /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2747662899FAB30077EFAA /* Example2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		6A27475A2899F7D30077EFAA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6A27475C2899F81A0077EFAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6A27475E2899F8890077EFAA /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		6A2747602899FA070077EFAA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6A2747642899FAA60077EFAA /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		6A2747662899FAB30077EFAA /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 		6A2747452899F6BF0077EFAA /* SeSACTMBDProject */ = {
 			isa = PBXGroup;
 			children = (
+				6A2747632899FA870077EFAA /* Key */,
+				6A2747622899FA1A0077EFAA /* Resource */,
+				6A2747602899FA070077EFAA /* Constant.swift */,
 				6A27475C2899F81A0077EFAA /* SearchViewController.swift */,
 				6A27475E2899F8890077EFAA /* APIKey.swift */,
 				6A2747462899F6BF0077EFAA /* AppDelegate.swift */,
@@ -74,6 +83,22 @@
 				6A2747542899F6C10077EFAA /* Info.plist */,
 			);
 			path = SeSACTMBDProject;
+			sourceTree = "<group>";
+		};
+		6A2747622899FA1A0077EFAA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6A2747662899FAB30077EFAA /* Example2.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6A2747632899FA870077EFAA /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				6A2747642899FAA60077EFAA /* Example.swift */,
+			);
+			path = Key;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A27474B2899F6BF0077EFAA /* ViewController.swift in Sources */,
+				6A2747652899FAA60077EFAA /* Example.swift in Sources */,
 				6A2747472899F6BF0077EFAA /* AppDelegate.swift in Sources */,
 				6A27475D2899F81A0077EFAA /* SearchViewController.swift in Sources */,
 				6A2747492899F6BF0077EFAA /* SceneDelegate.swift in Sources */,
 				6A27475F2899F8890077EFAA /* APIKey.swift in Sources */,
+				6A2747612899FA070077EFAA /* Constant.swift in Sources */,
+				6A2747672899FAB30077EFAA /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
